@@ -67,7 +67,7 @@ class ViewController: UIViewController {
             lblFrequency.text = String(format: "%0.1f", tracker.frequency)
             var frequency = Double(tracker.frequency)
             let targetFrequency = scale[currentIndex].frequency
-            let fudge = 1.0
+            let fudge = 0.5
             while (frequency > (targetFrequency + fudge)) {
                 frequency /= 2.0
             }
