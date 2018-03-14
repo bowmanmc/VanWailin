@@ -11,7 +11,22 @@ import Foundation
 
 struct Scales {
     struct G_Major {
-        let name = "G Major"
-        let notes = [ G, A, B, C, D, E, F_SHARP ]
+        static let name:String = "G Major"
+        static let notes:Array<Note> = [G, A, B, C, D, E, F_SHARP]
+    }
+
+    struct G_Major_Pentatonic {
+        let name:String = "G Major Pentatonic"
+        let notes:Array<Note> = [G, A, B, D, E]
+    }
+
+    struct G_Minor {
+        let name = "G Minor"
+        let notes = [G, A, B_FLAT, C, D, E_FLAT, F]
+    }
+
+    struct G_Minor_Pentatonic {
+        let name = "G Minor Pentatonic"
+        let notes = [G, B_FLAT, C, D, F]
     }
 }
