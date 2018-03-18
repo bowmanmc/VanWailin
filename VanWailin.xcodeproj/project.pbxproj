@@ -16,6 +16,8 @@
 		4CAB2C3020576BF300E67840 /* Scales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB2C2F20576BF300E67840 /* Scales.swift */; };
 		4CF276BB205E082E008B3323 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF276BA205E082E008B3323 /* SettingsViewController.swift */; };
 		4CF276BD205EFB0C008B3323 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF276BC205EFB0C008B3323 /* HomeViewController.swift */; };
+		4CF276BF205F0ECA008B3323 /* fa-light-300.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CF276BE205F0ECA008B3323 /* fa-light-300.ttf */; };
+		4CF276C1205F1006008B3323 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF276C0205F1006008B3323 /* AboutViewController.swift */; };
 		82654163D9E71BA70E182C04 /* Pods_VanWailin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72622E974C021C2CB55C9980 /* Pods_VanWailin.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		4CAB2C2F20576BF300E67840 /* Scales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scales.swift; sourceTree = "<group>"; };
 		4CF276BA205E082E008B3323 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		4CF276BC205EFB0C008B3323 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4CF276BE205F0ECA008B3323 /* fa-light-300.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-light-300.ttf"; sourceTree = "<group>"; };
+		4CF276C0205F1006008B3323 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		72622E974C021C2CB55C9980 /* Pods_VanWailin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VanWailin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -78,6 +82,7 @@
 		4C02C37F20575D1600A80C2D /* VanWailin */ = {
 			isa = PBXGroup;
 			children = (
+				4CF276BE205F0ECA008B3323 /* fa-light-300.ttf */,
 				4C02C38020575D1600A80C2D /* AppDelegate.swift */,
 				4C02C38220575D1600A80C2D /* ViewController.swift */,
 				4C02C38420575D1600A80C2D /* Main.storyboard */,
@@ -88,6 +93,7 @@
 				4CAB2C2F20576BF300E67840 /* Scales.swift */,
 				4CF276BA205E082E008B3323 /* SettingsViewController.swift */,
 				4CF276BC205EFB0C008B3323 /* HomeViewController.swift */,
+				4CF276C0205F1006008B3323 /* AboutViewController.swift */,
 			);
 			path = VanWailin;
 			sourceTree = "<group>";
@@ -162,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CF276BF205F0ECA008B3323 /* fa-light-300.ttf in Resources */,
 				4C02C38B20575D1600A80C2D /* LaunchScreen.storyboard in Resources */,
 				4C02C38820575D1600A80C2D /* Assets.xcassets in Resources */,
 				4C02C38620575D1600A80C2D /* Main.storyboard in Resources */,
@@ -229,6 +236,7 @@
 				4C02C38320575D1600A80C2D /* ViewController.swift in Sources */,
 				4C02C38120575D1600A80C2D /* AppDelegate.swift in Sources */,
 				4CAB2C3020576BF300E67840 /* Scales.swift in Sources */,
+				4CF276C1205F1006008B3323 /* AboutViewController.swift in Sources */,
 				4CF276BB205E082E008B3323 /* SettingsViewController.swift in Sources */,
 				4CAB2C2E2057651D00E67840 /* Notes.swift in Sources */,
 				4CF276BD205EFB0C008B3323 /* HomeViewController.swift in Sources */,

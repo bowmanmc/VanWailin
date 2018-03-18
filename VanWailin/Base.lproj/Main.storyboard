@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="fa-light-300.ttf">
+            <string>FontAwesome5ProLight</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -77,11 +82,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tdb-wC-z5C">
+                                <rect key="frame" x="16" y="611" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="FontAwesome5ProLight" family="Font Awesome 5 Pro" pointSize="32"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButtonClickAbout:" destination="7t9-qj-bb1" eventType="touchUpInside" id="X5D-kT-ruV"/>
+                                    <action selector="onButtonClickSettings:" destination="7t9-qj-bb1" eventType="touchUpInside" id="4mH-N1-JR7"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SdT-DY-evs">
-                                <rect key="frame" x="144" y="77" width="87" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                <state key="normal" title="Settings">
+                                <rect key="frame" x="323" y="611" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <fontDescription key="fontDescription" name="FontAwesome5ProLight" family="Font Awesome 5 Pro" pointSize="32"/>
+                                <state key="normal" title="">
                                     <color key="titleColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -93,7 +110,8 @@
                         <viewLayoutGuide key="safeArea" id="Hob-dN-j9f"/>
                     </view>
                     <connections>
-                        <segue destination="SK8-KQ-Upb" kind="show" identifier="SequeToSettingsView" id="pKp-eu-ZTS"/>
+                        <segue destination="SK8-KQ-Upb" kind="show" identifier="SegueToSettingsView" id="pKp-eu-ZTS"/>
+                        <segue destination="NZs-gE-v0V" kind="show" identifier="SegueToAboutView" id="M99-Q4-Da0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4os-QA-aby" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -126,7 +144,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ePv-LG-MS1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="824.79999999999995" y="-490.70464767616198"/>
+            <point key="canvasLocation" x="894" y="-402"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="wN5-Hq-Vzx">
+            <objects>
+                <viewController id="NZs-gE-v0V" customClass="AboutViewController" customModule="VanWailin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eKG-i9-iIL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSP-58-Aru">
+                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="onButtonClickBack:" destination="NZs-gE-v0V" eventType="touchUpInside" id="vQz-vq-tOd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="nz4-wq-JcR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lop-Km-wCJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-31" y="991"/>
         </scene>
     </scenes>
 </document>

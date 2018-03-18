@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  AboutViewController.swift
 //  VanWailin
 //
 //  Created by Michael Bowman on 3/18/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class AboutViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,12 +21,9 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func onButtonClickSettings(_ sender: UIButton) {
-        performSegue(withIdentifier: "SegueToSettingsView", sender: self)
-    }
 
-    @IBAction func onButtonClickAbout(_ sender: UIButton) {
-        performSegue(withIdentifier: "SegueToAboutView", sender: self)
+    @IBAction func onButtonClickBack(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
     }
     /*
     // MARK: - Navigation
