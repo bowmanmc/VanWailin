@@ -18,6 +18,10 @@
 		4CF276BD205EFB0C008B3323 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF276BC205EFB0C008B3323 /* HomeViewController.swift */; };
 		4CF276BF205F0ECA008B3323 /* fa-light-300.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CF276BE205F0ECA008B3323 /* fa-light-300.ttf */; };
 		4CF276C1205F1006008B3323 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF276C0205F1006008B3323 /* AboutViewController.swift */; };
+		4CF276C3205F3B84008B3323 /* LevelsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF276C2205F3B84008B3323 /* LevelsListViewController.swift */; };
+		4CF276C5205F3E27008B3323 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF276C4205F3E27008B3323 /* LevelViewController.swift */; };
+		4CF276C7205F4556008B3323 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF276C6205F4556008B3323 /* PlayViewController.swift */; };
+		4CF276C9205F464D008B3323 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF276C8205F464D008B3323 /* ResultViewController.swift */; };
 		82654163D9E71BA70E182C04 /* Pods_VanWailin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72622E974C021C2CB55C9980 /* Pods_VanWailin.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +41,10 @@
 		4CF276BC205EFB0C008B3323 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4CF276BE205F0ECA008B3323 /* fa-light-300.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-light-300.ttf"; sourceTree = "<group>"; };
 		4CF276C0205F1006008B3323 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		4CF276C2205F3B84008B3323 /* LevelsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsListViewController.swift; sourceTree = "<group>"; };
+		4CF276C4205F3E27008B3323 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		4CF276C6205F4556008B3323 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		4CF276C8205F464D008B3323 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		72622E974C021C2CB55C9980 /* Pods_VanWailin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VanWailin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -94,6 +102,10 @@
 				4CF276BA205E082E008B3323 /* SettingsViewController.swift */,
 				4CF276BC205EFB0C008B3323 /* HomeViewController.swift */,
 				4CF276C0205F1006008B3323 /* AboutViewController.swift */,
+				4CF276C2205F3B84008B3323 /* LevelsListViewController.swift */,
+				4CF276C4205F3E27008B3323 /* LevelViewController.swift */,
+				4CF276C6205F4556008B3323 /* PlayViewController.swift */,
+				4CF276C8205F464D008B3323 /* ResultViewController.swift */,
 			);
 			path = VanWailin;
 			sourceTree = "<group>";
@@ -236,10 +248,14 @@
 				4C02C38320575D1600A80C2D /* ViewController.swift in Sources */,
 				4C02C38120575D1600A80C2D /* AppDelegate.swift in Sources */,
 				4CAB2C3020576BF300E67840 /* Scales.swift in Sources */,
+				4CF276C5205F3E27008B3323 /* LevelViewController.swift in Sources */,
 				4CF276C1205F1006008B3323 /* AboutViewController.swift in Sources */,
 				4CF276BB205E082E008B3323 /* SettingsViewController.swift in Sources */,
+				4CF276C7205F4556008B3323 /* PlayViewController.swift in Sources */,
 				4CAB2C2E2057651D00E67840 /* Notes.swift in Sources */,
 				4CF276BD205EFB0C008B3323 /* HomeViewController.swift in Sources */,
+				4CF276C3205F3B84008B3323 /* LevelsListViewController.swift in Sources */,
+				4CF276C9205F464D008B3323 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
